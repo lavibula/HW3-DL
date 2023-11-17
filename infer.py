@@ -151,5 +151,5 @@ df = pd.DataFrame(columns=['Id', 'Expected'])
 df['Id'] = res['ids']
 df['Expected'] = res['strings']
 
-df.to_csv(r'dinzdzunOutput.csv', index=False)
+df.to_csv(r'Output.csv', index=False)
 print("Saved Output")
