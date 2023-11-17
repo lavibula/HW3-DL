@@ -21,7 +21,7 @@ save_dir = '/kaggle/working/'
 response = requests.get(drive_url)
 
 # Write the content of the response to a file in the save_dir
-with open(os.path.join(save_dir, 'model.pth'), 'wb') as f:
+with open(os.path.join(save_dir, 'unet_model.pth'), 'wb') as f:
     f.write(response.content)
 ```
 ```python
