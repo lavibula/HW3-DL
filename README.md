@@ -28,7 +28,7 @@ with open(os.path.join(save_dir, 'unet_model.pth'), 'wb') as f:
 !git clone https://github.com/lavibula/HW3-DL.git # clone my git repo
 ```
 ```python
-!mkdir predicted_mask # make dir for mask prediction
+!mkdir prediction # make dir for mask prediction
 ```
 ```python
 !python /kaggle/working/BKAI_Polyp/infer.py --checkpoint '/kaggle/working/unet_model.pth' --test_dir '/kaggle/input/bkai-igh-neopolyp/test/test' --mask_dir '/kaggle/working/prediction'
